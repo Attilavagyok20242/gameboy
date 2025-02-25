@@ -41,7 +41,6 @@ class GamesRestKezelo extends Restkezelo
         $this->sethttpFejlec($statusCode);
         $result["getGamesById"]=$soradat;
 
-        //Válasz küldése json-ben
         $response=$this->encodeJson($result);
         echo $response;
     }
