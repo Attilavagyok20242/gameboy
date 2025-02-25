@@ -20,7 +20,6 @@ class GamesRestKezelo extends Restkezelo
         $this->sethttpFejlec($statusCode);
         $result["games"]=$soradat;
 
-        //Válasz küldée json-ben
         $response=$this->encodeJson($result);
         echo $response;
     }
@@ -61,7 +60,6 @@ class GamesRestKezelo extends Restkezelo
         $this->sethttpFejlec($statusCode);
         $result["fishingRodByManufacturer"]=$soradat;
 
-        //Válasz json formátumban
         $response=$this->encodeJson($result);
         echo $response;
     }
