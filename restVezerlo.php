@@ -1,5 +1,5 @@
 <?php
-require_once("FishingRodrestKezelo.php");
+require_once("GamesRestkezelo.php");
 $view="";
 if(isset($_GET["view"]))
     $view=$_GET["view"];
